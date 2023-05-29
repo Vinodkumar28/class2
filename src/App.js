@@ -1,4 +1,5 @@
 import './App.css';
+import NavBar from "./Components/navbar"
 // import Compo1 from './Component';
 
 //class 1
@@ -20,7 +21,7 @@ import './App.css';
 function App() {
   return (
   <div className="App">
-      <h1>YouTube</h1>
+      <NavBar/>
   </div>
   );
 }
